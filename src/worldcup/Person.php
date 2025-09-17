@@ -1,4 +1,7 @@
 <?php
+
+namespace WorldCup;
+
 class Person{
     public int $age;
 
@@ -12,7 +15,7 @@ class Person{
 
     public function setAge(int $age): void{
         if ($age < 0) {
-            throw new InvalidArgumentException('Age must be a non-negative integer.');
+            throw new \InvalidArgumentException('Age must be a non-negative integer.');
         }
         $this->age = $age;
     }
