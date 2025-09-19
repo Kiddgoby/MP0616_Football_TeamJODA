@@ -5,7 +5,7 @@ namespace WorldCup;
 /**
  * Class to define the midfielder
  */
-class Midfielder extends Player {
+class Midfielder extends Player { //ya arreglado
     private $vision;
 
     /**
