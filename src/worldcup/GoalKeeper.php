@@ -22,11 +22,15 @@ class Goalkeeper extends Player {
         $this->globes = $globes;
     }
 
-    public function block(Ball $ball) {
+    //Cuando se haya subido la clase Ball de github borrar la solucion temporal de abajo y dejar la comentada 
+    /**public function block(Ball $ball) {
         $effects = ["with success", "without success"];
 
         $effect = $effects[array_rand($effects)];
 
         echo "catching $effect\n";
-    }
+    }*/
+    public function block($ball) {
+    echo $this->name . " is blocking\n";
+}
 }

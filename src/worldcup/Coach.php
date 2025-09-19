@@ -2,8 +2,8 @@
 
 namespace WorldCup;
 
-class Coach extends Person {
-    privated $style; 
+class Coach  /**extends Person*/ {
+    public $style; 
 
     public function train() {
         echo "train\n";
