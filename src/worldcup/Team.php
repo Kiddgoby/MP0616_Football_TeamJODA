@@ -10,7 +10,7 @@ class Team {
     public $coach;
     public $players; // array of Player objects
 
-    public function __construct($name) {
+    public function __construct($name) {    
         $this->name = $name;
     }
 

@@ -2,10 +2,13 @@
 
 namespace WorldCup;
 
+require_once __DIR__ . '/Player.php';
+
 /**
  * Class to define the forward
  */
 class Forward extends Player {
+
     public $killer; 
 
     public function drible() {
@@ -41,4 +44,5 @@ class Forward extends Player {
         $effect = $effects[array_rand($effects)];
         echo "kicking $effect\n";
     }
+
 }

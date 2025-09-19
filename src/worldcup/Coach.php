@@ -2,6 +2,7 @@
 
 namespace WorldCup;
 
+
 class Coach extends Person {
     public $style; 
 
