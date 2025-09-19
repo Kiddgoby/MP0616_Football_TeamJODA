@@ -2,7 +2,8 @@
 
 namespace WorldCup;
 
-class Coach  /**extends Person*/ {
+
+class Coach extends Person {
     public $style; 
 
     public function train() {
