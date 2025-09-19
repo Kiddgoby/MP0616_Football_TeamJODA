@@ -3,7 +3,7 @@
 namespace WorldCup;
 
 
-class Coach extends Person {
+class Coach {
     public $style; 
 
     public function train() {
